@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+
+}
+
+.home-image-container img {
+    max-width: 50%;
+}
+
+.polla {
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.home-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* animacion */
+.first {
+    display: inline-block;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid transparent;
+    animation: typing 2s steps(17), blink .5s infinite step-end alternate;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 17ch;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}

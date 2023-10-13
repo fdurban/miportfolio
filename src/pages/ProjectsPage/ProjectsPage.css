@@ -1,0 +1,33 @@
+.carousel-caption h3,
+.carousel-caption p {
+    color: black;
+}
+
+/* ProjectsPage.css */
+/* Establece el alto fijo para el carrusel para que ocupe toda la pantalla verticalmente */
+.carousel {
+    height: 100%;
+}
+
+/* Asegura que las imágenes del carrusel ocupen toda la pantalla horizontalmente y verticalmente */
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Asegura que las imágenes se ajusten a la altura completa del carrusel */
+.carousel-item img {
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}

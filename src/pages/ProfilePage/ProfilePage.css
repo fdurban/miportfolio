@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.full-height-row1 {
+    max-height: 100%;
+}
+
+.profile-text {
+    text-align: center;
+}
+
+.profile-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ImageIndividual,
+.ImageGroup {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 16px;
+    border: 2px solid #333;
+    border-radius: 4px;
+}
