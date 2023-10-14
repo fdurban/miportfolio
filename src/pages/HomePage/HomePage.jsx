@@ -4,8 +4,8 @@ import './HomePage.css';
 
 const HomePage = () => {
     return (
-        <Container fluid>
-            <Row className="d-flex align-items-center polla">
+        <Container fluid >
+            <Row className="align-items-center">
                 <Col sm={12} md={6} className="content">
                     <h1 className="first">Hi! I'm Fernando.</h1>
                     <p>Welcome to my portfolio</p>

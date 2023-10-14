@@ -1,0 +1,8 @@
+.container-fluid {
+    height: 100%;
+}
+
+/* Establece la altura de la fila al 100% de la ventana y alinea elementos verticalmente */
+.row.align-items-center {
+    height: calc(100vh - 70px);
+}

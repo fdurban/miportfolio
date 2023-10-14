@@ -1,14 +1,11 @@
 body {
+    min-height: 100%;
     margin: 0;
-
+    padding: 0;
 }
 
 .home-image-container img {
     max-width: 50%;
-}
-
-.polla {
-    align-items: center;
 }
 
 .content {
@@ -20,6 +17,12 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+.container-fluid {
+    height: 100%;
+}
+
+/* Establece la altura de la fila al 100% de la ventana y alinea elementos verticalmente */
 
 /* animacion */
 .first {

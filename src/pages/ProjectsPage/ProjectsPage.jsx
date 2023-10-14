@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Carousel, Modal, Button } from 'react-bootstrap';
 import './ProjectsPage.css';
+import { Col, Row } from 'react-bootstrap'
 
 const ProjectsPage = () => {
     const [showModal1, setShowModal1] = useState(false);
@@ -26,7 +27,7 @@ const ProjectsPage = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="public/IYDPhoto.png"
+                        src="/images/IYDPhoto.png"
                         alt="First slide"
                         onClick={handleShowModal1}
                     />
@@ -36,10 +37,11 @@ const ProjectsPage = () => {
                         <a href="https://iyd.netlify.app/" target="_blank" rel="noopener noreferrer">Go to deployed website</a>
                     </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="public/TicTacToePhoto.png"
+                        src="/images/TicTacToePhoto.png"
                         alt="Second slide"
                         onClick={handleShowModal2}
                     />
@@ -52,11 +54,11 @@ const ProjectsPage = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="public/ToDoPhoto.png"
+                        src="/images/ToDoPhoto.png"
                         alt="Third slide"
                         onClick={handleShowModal3}
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption className="custom-caption-black">
                         <h3>To Do App</h3>
                         <p onClick={handleShowModal3}>Click for details</p>
                         <a href="https://main--sprightly-frangipane-5e88d4.netlify.app/" target="_blank" rel="noopener noreferrer">Go to deployed website</a>
@@ -65,11 +67,11 @@ const ProjectsPage = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="public/CanastaPhoto.png"
+                        src="/images/CanastaPhoto.png"
                         alt="Third slide"
                         onClick={handleShowModal4}
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption >
                         <h3>Canasta</h3>
                         <p onClick={handleShowModal4}>Click for details</p>
                         <a href="https://main--sprightly-frangipane-5e88d4.netlify.app/" target="_blank" rel="noopener noreferrer">Go to deployed website</a>
@@ -157,7 +159,7 @@ const ProjectsPage = () => {
                     </Button>
                 </Modal.Footer>
             </Modal>
-        </div>
+        </div >
     );
 };
 

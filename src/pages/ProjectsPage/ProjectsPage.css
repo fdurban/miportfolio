@@ -3,13 +3,10 @@
     color: black;
 }
 
-/* ProjectsPage.css */
-/* Establece el alto fijo para el carrusel para que ocupe toda la pantalla verticalmente */
 .carousel {
     height: 100%;
 }
 
-/* Asegura que las imágenes del carrusel ocupen toda la pantalla horizontalmente y verticalmente */
 .carousel-item {
     display: flex;
     justify-content: center;
@@ -17,17 +14,62 @@
     height: 100%;
 }
 
-/* Asegura que las imágenes se ajusten a la altura completa del carrusel */
 .carousel-item img {
     max-height: 100%;
     width: auto;
     max-width: 100%;
 }
 
+.carousel-caption {
+    color: white;
+    margin-bottom: 90px;
+}
+
+.carousel-caption a,
+.carousel-caption p,
+.carousel-caption h3 {
+    color: white;
+    text-decoration: none;
+}
+
+.custom-caption-black h3,
+.custom-caption-black p,
+.custom-caption-black a {
+    color: black;
+}
+
+.carousel-caption a:hover {
+    color: green;
+
+}
+
+@media (max-width: 768px) {
+    /* Estilos específicos para dispositivos móviles */
+    /* Puedes ajustar estos estilos según tus necesidades */
+
+    /* .carousel-item {
+        padding-top: 200px
+    } */
+
+    .carousel {
+        padding-top: 150px
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        transform: translateY(10%);
+    }
+
+
+    .carousel-caption {
+        margin-top: 150px
+    }
+
+
+}
 
 body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }

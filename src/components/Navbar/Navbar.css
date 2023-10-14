@@ -1,3 +1,19 @@
 .navbar-logo {
-    max-width: 30px;
+    max-width: 40px;
+}
+
+.nav-link {
+    margin: 0;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover .link-text {
+    color: red;
+}
+
+
+.link-text {
+    color: black;
+    text-decoration: none;
 }

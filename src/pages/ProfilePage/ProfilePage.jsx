@@ -29,8 +29,8 @@ const ProfilePage = () => {
                     <p>Thank you, and I look forward to connecting with you soon</p>
                 </Col>
                 <Col sm={12} md={6} className="profile-images">
-                    <img src="public/_DSC8366.jpg" alt="Image 1" className="ImageIndividual" />
-                    <img src="public/_DSC8367.jpg" alt="Image 2" className="ImageGroup" />
+                    <img src="/images/_DSC8366.jpg" alt="Image 1" className="ImageIndividual" />
+                    <img src="/images/_DSC8367.jpg" alt="Image 2" className="ImageGroup" />
                 </Col>
             </Row>
         </Container>
