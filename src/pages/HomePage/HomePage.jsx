@@ -18,7 +18,7 @@ const HomePage = () => {
                     </p>
                 </Col>
                 <Col sm={12} md={6} className="home-image-container">
-                    <img src='public/IMG_7872-min.JPG' alt="Fernando's Photo" className='HomeImage' />
+                    <img src='/images/IMG_7872-min.JPG' alt="Fernando's Photo" className='HomeImage' />
                 </Col>
             </Row>
         </Container>

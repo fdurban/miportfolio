@@ -11,7 +11,7 @@ function NavbarComponent() {
                 <Navbar.Brand>
                     <Link to={"/"}>
                         <img
-                            src="public/F_D-logos_transparent.png"
+                            src="/images/F_D-logos_transparent.png"
                             alt="Logo"
                             className="navbar-logo"
                         />
