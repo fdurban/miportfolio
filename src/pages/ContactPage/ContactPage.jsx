@@ -14,7 +14,7 @@ function ContactPage() {
             <Container>
                 <Row className="justify-content-center">
                     <Col md={6}>
-                        <p className="text-success text-center">Thanks for joining! You will reeive an email as soon as possible.</p>
+                        <p className="text-success text-center">Thanks for contacting me! You will receive an email as soon as possible.</p>
                     </Col>
                 </Row>
             </Container>

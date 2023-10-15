@@ -74,7 +74,7 @@ const ProjectsPage = () => {
                     <Carousel.Caption >
                         <h3>Canasta</h3>
                         <p onClick={handleShowModal4}>Click for details</p>
-                        <a href="https://main--sprightly-frangipane-5e88d4.netlify.app/" target="_blank" rel="noopener noreferrer">Go to deployed website</a>
+                        <a href="https://magical-melomakarona-0bdb82.netlify.app/" target="_blank" rel="noopener noreferrer">Go to deployed website</a>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
@@ -84,14 +84,14 @@ const ProjectsPage = () => {
                     <Modal.Title>Ironhack Final Project</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    Is Your Day is a Full Stack app developed in collaboration with my colleague Cristian Mausque.
-                    Our idea was to create an app based on the same principle that students use to study, by making small paper cards where they summarize topics before an exam.
-                    The first card contains the entire content of a topic,
-                    while the subsequent cards have progressively less content to make it easier for students to memorize.
+                    <p>
+                        "Is Your Day" is a Full Stack app developed in collaboration with my colleague, Cristian Mausque. Our idea was to create an app based on the same principle that students use to study, by making small paper cards where they summarize topics before an exam. The first card contains the entire content of a topic, while the subsequent cards have progressively less content to make it easier for students to memorize.
+                    </p>
 
-                    The app features a user interface that allows students to create their own profiles, design cards, save them,
-                    and like cards created by other students, making the app more interactive and user-friendly. This was achieved by using technologies such as JavaScript,
-                    React, and Bootstrap for the frontend, and Node.js, Express, MongoDB, and JWT for the backend.
+                    <p>
+                        The app features a user interface that allows students to create their own profiles, design cards, save them, and like cards created by other students, making the app more interactive and user-friendly. We achieved this by using technologies such as JavaScript, React, and Bootstrap for the frontend, and Node.js, Express, MongoDB, and JWT for the backend.
+                    </p>
+
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleCloseModal1}>
@@ -105,9 +105,12 @@ const ProjectsPage = () => {
                     <Modal.Title>Tic Tac Toe</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    Welcome to my Tic Tac Toe App. The idea of this app wasn´t other to practice React concepts that were complicated and hard to mnage while i was studying the Bootcamp.
-                    The app is fully functional and available for players. Unfortunately it doesnt have any database other than the localStorage. The technologies used for this project were
-                    mainly JS and React. Hope you enjoy it!
+                    <p>
+                        Welcome to my Tic Tac Toe App. The primary goal of creating this app was to reinforce my understanding of complex React concepts during my time at the Bootcamp.
+                        The app is fully functional and ready for players to enjoy. Please note that it doesn't rely on a database; it uses local storage for data management. It's worth mentioning that I'm currently working on it, and while it's not fully completed, it's almost done. The core technologies employed in this project include JavaScript and React. I hope you find it enjoyable and that it proves useful!
+                    </p>
+
+
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleCloseModal2}>
@@ -144,14 +147,13 @@ const ProjectsPage = () => {
                 </Modal.Header>
                 <Modal.Body>
                     <p>
-                        Welcome to my first project as a freelance. In this case, me and my colleague Cristian are currently doing the website for the rebranding of Canasta productions.
-                        The main challenge here was to create a better web application than the one they currently have. In this case, Canasta already had an UI work done that envolved the logo,
-                        animations and other features.
+                        Welcome to my first project as a freelance developer. In this case, my colleague Cristian and I are working on the website for the rebranding of Canasta Productions.
+                        Our main challenge is to create a superior web application compared to their existing one. Canasta Productions already had a significant amount of UI work done, including the logo, animations, and other features.
                     </p>
                     <p>
-                        The project is fully made with JavaScript and React for the user interface. Among all things left for the project there is the non-scrlling page view, make better interfaces
-                        together with better color patterns and visualization of music videos (main product of Canasta)
+                        This project is entirely built using JavaScript and React for the user interface. There are several remaining tasks for the project, including implementing a non-scrolling page view, enhancing user interfaces, refining color schemes, and optimizing the visualization of music videos (which are the main product of Canasta Productions).
                     </p>
+
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleCloseModal4}>
